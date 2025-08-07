@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="525.0" prefWidth="787.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sales Executive.ClientQueries">
+   <children>
+      <TreeTableView layoutX="14.0" layoutY="22.0" prefHeight="200.0" prefWidth="754.0">
+        <columns>
+          <TreeTableColumn prefWidth="136.0000057220459" text="Customer Nmae" />
+          <TreeTableColumn prefWidth="179.2000732421875" text="Mobile Number" />
+            <TreeTableColumn prefWidth="209.60000610351562" text="Starting And Ending Date" />
+            <TreeTableColumn prefWidth="226.39999999999998" text="Queries" />
+        </columns>
+      </TreeTableView>
+      <Label layoutX="40.0" layoutY="254.0" prefHeight="18.0" prefWidth="89.0" text="Customer Name" />
+      <Label layoutX="40.0" layoutY="288.0" prefHeight="18.0" prefWidth="131.0" text="Mobile Number" />
+      <Label layoutX="40.0" layoutY="316.0" prefHeight="18.0" prefWidth="105.0" text="Reply" />
+      <TextField layoutX="146.0" layoutY="250.0" prefHeight="26.0" prefWidth="283.0" />
+      <TextField layoutX="153.0" layoutY="285.0" prefHeight="26.0" prefWidth="276.0" />
+      <TextArea layoutX="93.0" layoutY="316.0" prefHeight="190.0" prefWidth="338.0" />
+      <Button layoutX="540.0" layoutY="398.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="149.0" text="Send" />
+   </children>
+</AnchorPane>
