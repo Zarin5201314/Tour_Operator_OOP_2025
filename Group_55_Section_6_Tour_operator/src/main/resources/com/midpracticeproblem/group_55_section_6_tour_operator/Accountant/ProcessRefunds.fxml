@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Accountant.ProcessRefundsController">
+   <children>
+      <Label fx:id="processRefundTableView" layoutX="208.0" layoutY="32.0" text="Process Refunds">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView layoutX="150.0" layoutY="117.0" prefHeight="200.0" prefWidth="334.0">
+        <columns>
+          <TableColumn fx:id="packageIDcolumn" prefWidth="75.0" text="Package ID" />
+          <TableColumn fx:id="touristIDColumn" prefWidth="75.0" text="Tourist ID" />
+            <TableColumn fx:id="totalAmountColumn" prefWidth="109.60003662109375" text="Total Amount" />
+            <TableColumn fx:id="statusColumn" prefWidth="72.80002441406248" text="Status" />
+        </columns>
+      </TableView>
+      <Button layoutX="68.0" layoutY="372.0" mnemonicParsing="false" onAction="#approveOnAction" text="Approve" />
+      <Button layoutX="477.0" layoutY="372.0" mnemonicParsing="false" onAction="#rejectOnAction" prefHeight="26.0" prefWidth="62.0" text="Reject" />
+   </children>
+</AnchorPane>

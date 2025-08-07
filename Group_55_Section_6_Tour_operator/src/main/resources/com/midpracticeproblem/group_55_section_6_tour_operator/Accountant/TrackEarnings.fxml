@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgba(300,120,100,8);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Accountant.TrackEarningsController">
+   <children>
+      <Label layoutX="218.0" layoutY="43.0" text="Track Earnings">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="trackEarningTableView" layoutX="118.0" layoutY="125.0" prefHeight="200.0" prefWidth="339.0">
+        <columns>
+          <TableColumn fx:id="dateColumn" prefWidth="104.79998779296875" text="Date" />
+          <TableColumn fx:id="packageNameColumn" prefWidth="126.4000244140625" text="Tour Package Name" />
+            <TableColumn fx:id="amountColumn" prefWidth="108.79998779296875" text="Anoumt" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
