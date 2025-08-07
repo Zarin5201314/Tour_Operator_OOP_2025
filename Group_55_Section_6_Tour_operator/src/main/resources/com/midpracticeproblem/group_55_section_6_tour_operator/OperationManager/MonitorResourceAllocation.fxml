@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.OperationManager.MonitorResourceAllocation">
+   <children>
+      <TableView layoutX="14.0" layoutY="27.0" prefHeight="101.0" prefWidth="431.0">
+        <columns>
+          <TableColumn prefWidth="142.6666259765625" text="Guide Name" />
+          <TableColumn prefWidth="144.00006103515625" text="Guid ID" />
+            <TableColumn prefWidth="142.6666259765625" text="Assigned Tour" />
+        </columns>
+      </TableView>
+      <Label layoutX="127.0" layoutY="5.0" prefHeight="20.0" prefWidth="168.0" text="Tour Guide Allocation Table" />
+      <Label layoutX="150.0" layoutY="136.0" text="Vehicle Status Table" />
+      <TableView layoutX="14.0" layoutY="153.0" prefHeight="101.0" prefWidth="431.0">
+        <columns>
+          <TableColumn prefWidth="95.99996948242188" text="Vehicle Type" />
+          <TableColumn prefWidth="102.66668701171875" text="Number Plate" />
+            <TableColumn prefWidth="106.66668701171875" text="Assigned Tour" />
+            <TableColumn prefWidth="123.99993896484375" text="GPS Tracker" />
+        </columns>
+      </TableView>
+      <Label layoutX="168.0" layoutY="262.0" text="Hotel Room Allocation Table" />
+      <TableView layoutX="14.0" layoutY="284.0" prefHeight="101.0" prefWidth="439.0">
+        <columns>
+          <TableColumn prefWidth="119.99996948242188" text="Hotel Name" />
+          <TableColumn prefWidth="91.3333740234375" text="Tour Name" />
+            <TableColumn prefWidth="106.66668701171875" text="Rooms Assign" />
+            <TableColumn prefWidth="120.66668701171875" text="Room Remaining" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

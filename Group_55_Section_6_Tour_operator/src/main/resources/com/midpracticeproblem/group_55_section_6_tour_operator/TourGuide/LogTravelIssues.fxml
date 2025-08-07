@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.TourGuide.LogTravelIssues">
+   <children>
+      <ComboBox layoutX="18.0" layoutY="21.0" prefWidth="150.0" promptText="Issues Type" />
+      <DatePicker layoutX="18.0" layoutY="56.0" />
+      <RadioButton layoutX="24.0" layoutY="116.0" mnemonicParsing="false" text="Low" />
+      <RadioButton layoutX="80.0" layoutY="116.0" mnemonicParsing="false" text="Medium" />
+      <RadioButton layoutX="157.0" layoutY="116.0" mnemonicParsing="false" text="High" />
+      <Label layoutX="24.0" layoutY="90.0" text="Urgenct Label" />
+      <Label layoutX="237.0" layoutY="25.0" text="Description Box" />
+      <TextArea layoutX="325.0" layoutY="25.0" prefHeight="47.0" prefWidth="213.0" />
+      <Button layoutX="248.0" layoutY="95.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="134.0" text="Add To Table" />
+      <TableView layoutX="24.0" layoutY="160.0" prefHeight="158.0" prefWidth="357.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Issues Type" />
+          <TableColumn prefWidth="75.0" text="Date" />
+            <TableColumn prefWidth="99.33331298828125" text="Urgency Label" />
+            <TableColumn prefWidth="106.00002034505206" text="Description" />
+        </columns>
+      </TableView>
+      <Button layoutX="24.0" layoutY="332.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="175.0" text="Send To OperationManager" />
+   </children>
+</AnchorPane>
