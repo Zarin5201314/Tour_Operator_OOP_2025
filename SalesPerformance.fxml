@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="847.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Travel Agent.SalesPerformance">
+   <children>
+      <TableView layoutX="28.0" layoutY="67.0" prefHeight="200.0" prefWidth="790.0">
+        <columns>
+          <TableColumn prefWidth="113.59997177124023" text="Date" />
+          <TableColumn prefWidth="202.3999786376953" text="Package Name" />
+            <TableColumn prefWidth="181.60003662109375" text="Number of Sell" />
+            <TableColumn prefWidth="160.0" text="Seller Name" />
+            <TableColumn prefWidth="131.19998779296873" text="Total Sells" />
+        </columns>
+      </TableView>
+      <ComboBox layoutX="28.0" layoutY="21.0" prefWidth="150.0" promptText="Month" />
+      <Button layoutX="178.0" layoutY="290.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="182.0" text="Top Seller" />
+      <Button layoutX="444.0" layoutY="290.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="174.0" text="Minimum Seller" />
+   </children>
+</AnchorPane>

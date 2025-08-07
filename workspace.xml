@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60913391-2d78-4020-be82-f51160a013ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/AccountantClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ApplyDiscountsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/CreateAccountpageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ExportTransactionLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/GenerateReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/IssueInvoicesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ManageVendorPaymentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ProcessRefundsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/TrackEarningsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/AccountantDashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/CreateAccountPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/IBokkabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/IBrowesable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/IGenerateReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/LoginPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/BookTourController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/BrowsePackagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/CancelBookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/ContactSupportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/DownloadTicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/EditProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/SubmitFeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/TouristClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/TrackVisaStatusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/ViewBookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/TouristDashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/midpracticeproblem/group_55_section_6_tour_operator/UserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/ ClientQueries.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/Booking_Quaries.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/CommunicatewithHotelPartners.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/CreateManageTourPackage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/ModifyBooking.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/RegisterNewClient.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/booking_cancel.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sales Executive/bookingassistance.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/ SalesPerformance.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/CloseSale.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/FollowUp.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/HandleClients.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/PromotingSpeciaOffers.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/SalesReport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/SetReminde.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Travel Agent/VisaStatus.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/AccountantDashBoard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ApplyDiscounts.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/CreateAccountpage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ExportTransactionLog .fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/GenerateReport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/IssueInvoices.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/Logout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ManageVendorPayments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/ProcessRefunds.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Accountant/TrackEarnings.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/CreateAccountPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/LoginPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/BookTour.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/BrowsePackages.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/CancelBooking.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/ContactSupport.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/DownloadTicket.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/EditProfile.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/Logout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/SubmitFeedback.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/TouristDashBoard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/TrackVisaStatus.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/Tourist/ViewBooking.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/midpracticeproblem/group_55_section_6_tour_operator/hello-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Fahim1393"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Zarin5201314/Tour_Operator_OOP_2025.git",
+    "accountId": "e9c9a052-5c00-45a9-af03-ceee1e753fb7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="30ux8jVXjgPVbfKeQGmwmc331cq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-git.bad.executable&quot;: &quot;Cannot Run Git&quot;,
+    &quot;Notification.DoNotAsk-git.bad.executable&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Tour_Operator_OOP_2025/Group_55_Section_6_Tour_operator&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.VCS&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60913391-2d78-4020-be82-f51160a013ef" name="Changes" comment="" />
+      <created>1754491101603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754491101603</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

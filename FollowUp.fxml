@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="459.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Travel Agent.FollowUp">
+   <children>
+      <TableView layoutX="14.0" layoutY="66.0" prefHeight="200.0" prefWidth="867.0">
+        <columns>
+          <TableColumn prefWidth="120.00000286102295" text="Customer Name" />
+          <TableColumn prefWidth="140.79998779296875" text="Mobile Number" />
+            <TableColumn prefWidth="163.20001220703125" text="Last Booking Date" />
+            <TableColumn prefWidth="236.79998779296875" text="Number of Packages Avail" />
+            <TableColumn prefWidth="203.9999877929688" text="Advices" />
+        </columns>
+      </TableView>
+      <ComboBox layoutX="14.0" layoutY="31.0" prefWidth="150.0" promptText="Select Month" />
+      <Label layoutX="25.0" layoutY="286.0" prefHeight="18.0" prefWidth="124.0" text="Customer Name" />
+      <Label layoutX="25.0" layoutY="317.0" prefHeight="18.0" prefWidth="124.0" text="Mobile  Number" />
+      <TextField layoutX="134.0" layoutY="283.0" prefHeight="26.0" prefWidth="238.0" />
+      <TextField layoutX="134.0" layoutY="314.0" prefHeight="26.0" prefWidth="238.0" />
+      <Label layoutX="438.0" layoutY="287.0" prefHeight="18.0" prefWidth="94.0" text="Reminding Text" />
+      <TextArea layoutX="534.0" layoutY="280.0" prefHeight="107.0" prefWidth="346.0" />
+      <Button layoutX="396.0" layoutY="414.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="94.0" text="Send" />
+   </children>
+</AnchorPane>
