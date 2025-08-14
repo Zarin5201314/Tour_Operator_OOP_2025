@@ -65,9 +65,7 @@ public class ProcessRefundsController
             refundTableView.refresh();
             messageLabel.setText("Refund for Package ID " + selectedRequest.getPackageId() + " rejected.");
 
-            // In a real application:
-            // 1. Update the status in your database.
-            // 2. Potentially send a rejection notification.
+            
         } else {
             messageLabel.setText("Please select a refund request to reject.");
         }
