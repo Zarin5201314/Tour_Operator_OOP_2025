@@ -10,16 +10,17 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(120,230,130,3);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.ContactSupportController">
    <children>
-      <Label layoutX="207.0" layoutY="38.0" text="Contact Support">
-         <font>
-            <Font name="System Bold" size="24.0" />
-         </font>
-      </Label>
-      <Label layoutX="70.0" layoutY="105.0" text="Subject:" />
-      <TextField fx:id="subjectTextField" layoutX="133.0" layoutY="101.0" prefHeight="26.0" prefWidth="198.0" />
-      <Label layoutX="70.0" layoutY="174.0" text="Message:" />
-      <TextArea fx:id="messageTextArea" layoutX="133.0" layoutY="146.0" prefHeight="74.0" prefWidth="204.0" />
-      <Button layoutX="65.0" layoutY="291.0" mnemonicParsing="false" onAction="#cancelOnAction" text="Cancel" />
-      <Button layoutX="451.0" layoutY="291.0" mnemonicParsing="false" onAction="#SendOnAction" prefHeight="26.0" prefWidth="51.0" text="Send" />
-   </children>
+        <Label layoutX="207.0" layoutY="38.0" text="Contact Support">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="70.0" layoutY="105.0" text="Subject:" />
+        <TextField fx:id="subjectTextField" layoutX="133.0" layoutY="101.0" prefHeight="26.0" prefWidth="198.0" />
+        <Label layoutX="70.0" layoutY="174.0" text="Message:" />
+        <TextArea fx:id="messageTextArea" layoutX="133.0" layoutY="146.0" prefHeight="74.0" prefWidth="204.0" />
+        <Button layoutX="65.0" layoutY="291.0" mnemonicParsing="false" onAction="#cancelOnAction" text="Cancel" />
+        <Button layoutX="451.0" layoutY="291.0" mnemonicParsing="false" onAction="#SendOnAction" prefHeight="26.0" prefWidth="51.0" text="Send" />
+      <Label fx:id="outPutLabel" layoutX="421.0" layoutY="97.0" prefHeight="98.0" prefWidth="144.0" />
+    </children>
 </AnchorPane>
