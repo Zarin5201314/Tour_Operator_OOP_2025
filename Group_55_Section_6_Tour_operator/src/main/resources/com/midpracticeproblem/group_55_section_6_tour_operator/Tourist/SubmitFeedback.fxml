@@ -10,20 +10,21 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(220,250,150,5);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.SubmitFeedbackController">
    <children>
-      <Label layoutX="203.0" layoutY="35.0" text="Submit Feedback">
-         <font>
-            <Font name="System Bold" size="24.0" />
-         </font>
-      </Label>
-      <Label layoutX="72.0" layoutY="128.0" text="Tourist ID:" />
-      <Label layoutX="71.0" layoutY="224.0" text="Ratings:" />
-      <Label layoutX="72.0" layoutY="290.0" text="Comments:" />
-      <Label layoutX="71.0" layoutY="179.0" text="Tour ID:" />
-      <TextField fx:id="touristIDTextField" layoutX="165.0" layoutY="124.0" />
-      <TextField fx:id="tourIDTextField" layoutX="165.0" layoutY="175.0" />
-      <TextField fx:id="ratingTextField" layoutX="165.0" layoutY="220.0" />
-      <TextArea fx:id="commentTextArea" layoutX="165.0" layoutY="266.0" prefHeight="67.0" prefWidth="214.0" />
-      <Button layoutX="46.0" layoutY="348.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="26.0" prefWidth="54.0" text="Cancel" />
-      <Button layoutX="496.0" layoutY="348.0" mnemonicParsing="false" onAction="#submitOnAction" text="Submit" />
-   </children>
+        <Label layoutX="203.0" layoutY="35.0" text="Submit Feedback">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="72.0" layoutY="128.0" text="Tourist ID:" />
+        <Label layoutX="71.0" layoutY="224.0" text="Ratings:" />
+        <Label layoutX="72.0" layoutY="290.0" text="Comments:" />
+        <Label layoutX="71.0" layoutY="179.0" text="Tour ID:" />
+        <TextField fx:id="touristIDTextField" layoutX="165.0" layoutY="124.0" />
+        <TextField fx:id="tourIDTextField" layoutX="165.0" layoutY="175.0" />
+        <TextField fx:id="ratingTextField" layoutX="165.0" layoutY="220.0" />
+        <TextArea fx:id="commentTextArea" layoutX="165.0" layoutY="266.0" prefHeight="67.0" prefWidth="214.0" />
+        <Button layoutX="46.0" layoutY="348.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="26.0" prefWidth="54.0" text="Cancel" />
+        <Button layoutX="496.0" layoutY="348.0" mnemonicParsing="false" onAction="#submitOnAction" text="Submit" />
+      <Label fx:id="outPutLabel" layoutX="441.0" layoutY="79.0" prefHeight="131.0" prefWidth="126.0" />
+    </children>
 </AnchorPane>
