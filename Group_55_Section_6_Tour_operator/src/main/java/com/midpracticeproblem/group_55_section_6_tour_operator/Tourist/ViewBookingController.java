@@ -26,4 +26,14 @@ public class ViewBookingController
 
     @javafx.fxml.FXML
     public void initialize() {
-    }}
+
+        packageNameColumn.setCellValueFactory(new PropertyValueFactory<>("package name"));
+        bookingIDColumn.setCellValueFactory(new PropertyValueFactory<>("bookingID"));
+        packagePriceColumn.setCellValueFactory(new PropertyValueFactory<>("price"));
+        bookingdateColumn.setCellValueFactory(new PropertyValueFactory<>("bookingDate"));
+        durationColumn.setCellValueFactory(new PropertyValueFactory<>("duration"));
+        nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
+        contactColumn.setCellValueFactory(new PropertyValueFactory<>("contactInfo"));
+        genderColumn.setCellValueFactory(new PropertyValueFactory<>("gender"));
+    }
+}
