@@ -1,10 +1,10 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator;
+package ;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.BorderPane;
 
-public class AccountantDashBoardController
+public class AccountantDashBoardControllercom.midpracticeproblem.group_55_section_6_tour_operator
 {
     @javafx.fxml.FXML
     private BorderPane accountantDashBoardBP;
