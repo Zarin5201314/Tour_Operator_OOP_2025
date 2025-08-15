@@ -1,31 +1,42 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Tourist;
+package com.oopproject.new_tour_operator_project.Tourist;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class CancelBookingController
 {
     @javafx.fxml.FXML
-    private TableColumn bookingIDColumn;
+    private TableColumn<TourPackages,String> bookingIDColumn;
     @javafx.fxml.FXML
-    private TableColumn packageNamneColumn;
+    private TableColumn<TourPackages,String> packageNamneColumn;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<TourPackages,String> statusColumn;
     @javafx.fxml.FXML
-    private TableView cancelBookingTableView;
+    private TableView<TourPackages> cancelBookingTableView;
     @javafx.fxml.FXML
-    private TableColumn packageIDColumn;
+    private TableColumn<TourPackages,String> packageIDColumn;
+
+
+    private ObservableList<TourPackages> bookingList = FXCollections.observableArrayList();
     @javafx.fxml.FXML
     private Label outPutLabel;
 
-    private ObservableList<TourPackages> bookingList = FXCollections.observableArrayList();
-    
 
     @javafx.fxml.FXML
     public void initialize() {
-        
-        
+
         packageNamneColumn.setCellValueFactory(new PropertyValueFactory<>("packageName"));
         bookingIDColumn.setCellValueFactory(new PropertyValueFactory<>("bookingID"));
         statusColumn.setCellValueFactory(new PropertyValueFactory<>("status"));
@@ -38,7 +49,6 @@ public class CancelBookingController
 
     @javafx.fxml.FXML
     public void cancelBookingOnAction(ActionEvent actionEvent) {
-
         TourPackages selectedBooking = cancelBookingTableView.getSelectionModel().getSelectedItem();
 
         if (selectedBooking != null) {
@@ -56,10 +66,7 @@ public class CancelBookingController
         } else {
             outPutLabel.setText("Please select a booking to cancel.");
         }
-
-        
     }
-
 
     @javafx.fxml.FXML
     public void goBackOnAction(ActionEvent actionEvent) throws IOException {
@@ -70,6 +77,4 @@ public class CancelBookingController
         stage.setTitle("Tourist Dashboard");
         stage.show();
     }
-
-
 }

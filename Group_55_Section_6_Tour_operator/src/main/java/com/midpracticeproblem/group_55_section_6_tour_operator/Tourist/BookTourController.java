@@ -1,22 +1,28 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Tourist;
+package com.oopproject.new_tour_operator_project.Tourist;
 
+import com.oopproject.new_tour_operator_project.User;
 import javafx.event.ActionEvent;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextField;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
+import javafx.stage.Stage;
 
-public class BookTourController
-{
+import java.io.IOException;
+import java.time.LocalDate;
+
+public class BookTourController {
     @javafx.fxml.FXML
     private DatePicker availableDatePicker;
     @javafx.fxml.FXML
-    private ComboBox itineraryComboBox;
+    private ComboBox<String> itineraryComboBox;
     @javafx.fxml.FXML
     private TextField durationtTextField;
     @javafx.fxml.FXML
-    private ComboBox paymentMethodComboBox;
+    private ComboBox<String> paymentMethodComboBox;
     @javafx.fxml.FXML
-    private ComboBox packageNameComboBox;
+    private ComboBox<String> packageNameComboBox;
     @javafx.fxml.FXML
     private TextField totalAmountTextField;
     @javafx.fxml.FXML
@@ -30,6 +36,7 @@ public class BookTourController
         paymentMethodComboBox.setPromptText("Select Method");
     }
 
+
     @javafx.fxml.FXML
     public void viewBookingOnClick(ActionEvent actionEvent) throws IOException {
 
@@ -38,6 +45,8 @@ public class BookTourController
         Stage stage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
         stage.show();
+
+
     }
 
     @javafx.fxml.FXML
@@ -94,10 +103,13 @@ public class BookTourController
 
 
         outPutLabel.setText("Booking confirmed successfully!");
+
     }
 
+
+
     @javafx.fxml.FXML
-    public void goBackOnClick(ActionEvent actionEvent)throws IOException {
+    public void goBackOnClick(ActionEvent actionEvent) throws IOException {
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("TouristDashBoard.fxml"));
         Parent root = loader.load();
@@ -105,7 +117,6 @@ public class BookTourController
         stage.setScene(new Scene(root));
         stage.show();
     }
-
     @javafx.fxml.FXML
     private void clearFields() {
         itineraryComboBox.getSelectionModel().clearSelection();
@@ -116,4 +127,10 @@ public class BookTourController
         paymentMethodComboBox.getSelectionModel().clearSelection();
         outPutLabel.setText("");
     }
+
+
 }
+
+
+
+

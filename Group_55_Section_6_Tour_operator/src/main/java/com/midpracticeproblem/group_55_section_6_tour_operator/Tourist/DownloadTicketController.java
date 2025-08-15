@@ -1,36 +1,49 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Tourist;
+package com.oopproject.new_tour_operator_project.Tourist;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class DownloadTicketController
 {
     @javafx.fxml.FXML
-    private TableColumn packageNameColumn;
+    private TableColumn<TourPackages, String> packageNameColumn;
     @javafx.fxml.FXML
-    private TableColumn bookingIDColumn;
+    private TableColumn<TourPackages, String> bookingIDColumn;
     @javafx.fxml.FXML
-    private TableView downloadTicketTableView;
+    private TableView<TourPackages> downloadTicketTableView;
     @javafx.fxml.FXML
-    private TableColumn statusColumn;
+    private TableColumn<TourPackages, String> statusColumn;
     @javafx.fxml.FXML
-    private TableColumn packageIDColumn;
+    private TableColumn<TourPackages, String> packageIDColumn;
+
+    private ObservableList<TourPackages> ticketList = FXCollections.observableArrayList();
     @javafx.fxml.FXML
     private Label outPutLabel;
 
-    private ObservableList<TourPackages> ticketList = FXCollections.observableArrayList();
-   
-
     @javafx.fxml.FXML
     public void initialize() {
-
         packageNameColumn.setCellValueFactory(new PropertyValueFactory<>("packageName"));
         bookingIDColumn.setCellValueFactory(new PropertyValueFactory<>("bookingID"));
         statusColumn.setCellValueFactory(new PropertyValueFactory<>("status"));
         packageNameColumn.setCellValueFactory(new PropertyValueFactory<>("packageID"));
         packageIDColumn.setCellValueFactory((new PropertyValueFactory<>("packageID")));
         downloadTicketTableView.setItems(ticketList);
+
+
+
+
     }
 
     @javafx.fxml.FXML
@@ -52,6 +65,7 @@ public class DownloadTicketController
             outPutLabel.setText("Please select a booking to download the ticket for.");
         }
     }
+
 
     @javafx.fxml.FXML
     public void gobackOnAction(ActionEvent actionEvent) throws IOException {

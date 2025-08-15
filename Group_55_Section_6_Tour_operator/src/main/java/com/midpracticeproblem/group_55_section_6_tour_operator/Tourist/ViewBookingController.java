@@ -1,32 +1,36 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Tourist;
+package com.oopproject.new_tour_operator_project.Tourist;
 
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
-public class ViewBookingController
-{
+import java.time.LocalDate;
+
+public class ViewBookingController {
     @javafx.fxml.FXML
-    private TableColumn contactColumn;
+    private TableColumn<Tourist,String> contactColumn;
     @javafx.fxml.FXML
-    private TableColumn nameColumn;
+    private TableColumn<TourPackages,String> packageNameColumn;
     @javafx.fxml.FXML
-    private TableColumn genderColumn;
+    private TableColumn<Tourist,String> nameColumn;
     @javafx.fxml.FXML
-    private TableColumn packagePriceColumn;
+    private TableColumn<TourPackages,String> bookingIDColumn;
     @javafx.fxml.FXML
-    private TableColumn packageNameColumn;
+    private TableView<Tourist> viewbookigTableView;
     @javafx.fxml.FXML
-    private TableColumn durationColumn;
+    private TableColumn<Tourist,String> genderColumn;
     @javafx.fxml.FXML
-    private TableColumn bookingdateColumn;
+    private TableColumn<TourPackages,String> packagePriceColumn;
     @javafx.fxml.FXML
-    private TableView viewbookigTableView;
+    private TableColumn<TourPackages,String> durationColumn;
     @javafx.fxml.FXML
-    private TableColumn bookingIDColumn;
+    private TableColumn<TourPackages, DatePicker> bookingdateColumn;
+
+
 
     @javafx.fxml.FXML
     public void initialize() {
-
         packageNameColumn.setCellValueFactory(new PropertyValueFactory<>("package name"));
         bookingIDColumn.setCellValueFactory(new PropertyValueFactory<>("bookingID"));
         packagePriceColumn.setCellValueFactory(new PropertyValueFactory<>("price"));
@@ -35,5 +39,7 @@ public class ViewBookingController
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
         contactColumn.setCellValueFactory(new PropertyValueFactory<>("contactInfo"));
         genderColumn.setCellValueFactory(new PropertyValueFactory<>("gender"));
+
     }
+
 }
