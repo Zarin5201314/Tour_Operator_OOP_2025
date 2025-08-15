@@ -1,8 +1,26 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Accountant;
+package com.oopproject.new_tour_operator_project.Accountant;
 
+import com.oopproject.new_tour_operator_project.Tourist.TourPackages;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleStringProperty;
+
+
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class ManageVendorPaymentsController
 {
@@ -19,6 +37,7 @@ public class ManageVendorPaymentsController
 
     private ObservableList<VendorPayment> paymentList = FXCollections.observableArrayList();
 
+
     @javafx.fxml.FXML
     public void initialize() {
         vendorNameColumn.setCellValueFactory(new PropertyValueFactory<>("vendorName"));
@@ -29,6 +48,7 @@ public class ManageVendorPaymentsController
         loadSamplePaymentData();
         manageVendorPaymentTableView.setItems(paymentList);
     }
+
 
     private void loadSamplePaymentData() {
         paymentList.clear();
@@ -54,6 +74,7 @@ public class ManageVendorPaymentsController
             outPutLabel.setText("Please select a payment to mark as paid.");
         }
     }
+
 
     @javafx.fxml.FXML
     public void goBackOnClick(ActionEvent actionEvent)throws IOException {

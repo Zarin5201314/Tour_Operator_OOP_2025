@@ -1,8 +1,15 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Accountant;
+package com.oopproject.new_tour_operator_project.Accountant;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 
 public class IssueInvoicesController
 {
@@ -15,6 +22,7 @@ public class IssueInvoicesController
 
     @javafx.fxml.FXML
     public void initialize() {
+        outPutLabel.setText("");
     }
 
     @javafx.fxml.FXML
@@ -25,6 +33,7 @@ public class IssueInvoicesController
         stage.setScene(new Scene(root));
         stage.setTitle("Accountant DashBoard");
         stage.show();
+
     }
 
     @javafx.fxml.FXML
@@ -57,7 +66,9 @@ public class IssueInvoicesController
             return;
         }
 
-       
+        // --- Simulate Invoice Issuance ---
+        // In a real application, you would record this invoice in your database,
+        // potentially generate a PDF, or send an email.
         System.out.println("--- Issuing Invoice ---");
         System.out.println("Booking ID: " + bookingId);
         System.out.println("Amount: $" + String.format("%.2f", amount));
