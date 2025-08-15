@@ -1,6 +1,13 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Accountant;
+package com.oopproject.new_tour_operator_project;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class LogoutController
 {
@@ -9,7 +16,7 @@ public class LogoutController
     }
 
     @javafx.fxml.FXML
-    public void cancelOnAction(ActionEvent actionEvent) throws IOException{
+    public void yesLogoutOnAction(ActionEvent actionEvent) throws IOException{
         Stage currentStage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
         currentStage.close();
 
@@ -23,11 +30,12 @@ public class LogoutController
     }
 
     @javafx.fxml.FXML
-    public void logoutOnAction(ActionEvent actionEvent) {
+    public void cancelOnAction(ActionEvent actionEvent) {
+
+
         Stage stage = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
 
         stage.close();
 
-    
     }
 }
