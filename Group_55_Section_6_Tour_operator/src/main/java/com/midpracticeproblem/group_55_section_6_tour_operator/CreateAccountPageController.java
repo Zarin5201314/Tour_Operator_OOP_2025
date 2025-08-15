@@ -1,12 +1,8 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator;
+package com.oopproject.new_tour_operator_project;
 
+import com.oopproject.new_tour_operator_project.Accountant.Accountant;
+import com.oopproject.new_tour_operator_project.Tourist.Tourist;
 import javafx.event.ActionEvent;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
-
-
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
@@ -18,8 +14,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
-
-
 
 public class CreateAccountPageController
 {
@@ -43,20 +37,24 @@ public class CreateAccountPageController
     private TextField passwordField;
     @javafx.fxml.FXML
     private RadioButton othersRadioButton;
+    @javafx.fxml.FXML
+    private ToggleGroup genderToggleGroup;
 
     ArrayList<User> userArrayList = new ArrayList<>();
-
     @javafx.fxml.FXML
     public void initialize() {
-        
+
         genderToggleGroup = new ToggleGroup();
         femaleRadioButton.setToggleGroup(genderToggleGroup);
         maleRadioButton.setToggleGroup(genderToggleGroup);
         othersRadioButton.setToggleGroup(genderToggleGroup);
+
     }
 
+
+
     @javafx.fxml.FXML
-    public void createAccountButtonOnAction(ActionEvent actionEvent)throws IOException {
+    public void createAccountButtonOnAction(ActionEvent actionEvent) throws IOException {
         Parent root = null;
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("LoginPage.fxml"));
         root = fxmlLoader.load();
@@ -199,7 +197,6 @@ public class CreateAccountPageController
         stage.setTitle("Login");
         stage.show();
     }
-
-
-    
 }
+
+

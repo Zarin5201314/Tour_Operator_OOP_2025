@@ -1,4 +1,4 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator;
+package com.oopproject.new_tour_operator_project;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

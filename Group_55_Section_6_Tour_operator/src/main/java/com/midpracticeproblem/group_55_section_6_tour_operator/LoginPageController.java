@@ -1,12 +1,23 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator;
+package com.oopproject.new_tour_operator_project;
 
+import com.oopproject.new_tour_operator_project.Accountant.AccountantDashBoardController;
+import com.oopproject.new_tour_operator_project.Tourist.TouristDashBoardController;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableArray;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
-import javafx.scene.control.TextArea;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class LoginPageController
 {
-
     @javafx.fxml.FXML
     private TextField userNameTextField;
     @javafx.fxml.FXML
@@ -14,15 +25,19 @@ public class LoginPageController
     @javafx.fxml.FXML
     private Label outputLabel;
 
+
     ObservableList<User> touristObservableList = FXCollections.observableArrayList();
     ObservableList<User> accountantDashBoardObservableList = FXCollections.observableArrayList();
+
+
+
 
     @javafx.fxml.FXML
     public void initialize() {
     }
 
     @javafx.fxml.FXML
-    public void createAccountOAction(ActionEvent actionEvent)throws IOException{
+    public void createAccountOAction(ActionEvent actionEvent) throws IOException{
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("CreateAccountPage.fxml"));
         Parent root = loader.load();
@@ -82,5 +97,13 @@ public class LoginPageController
          }
 
 
+
+
+
+
+
+
     }
+
+
 }
