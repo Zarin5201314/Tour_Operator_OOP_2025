@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(100,120,150,7);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.LogoutController">
+    <children>
+        <Label layoutX="101.0" layoutY="60.0" text="Are You Sure You Want To Logout?">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="113.0" layoutY="218.0" mnemonicParsing="false" onAction="#yesLogoutOnAction" text="Yes Logout" />
+        <Button layoutX="389.0" layoutY="217.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="26.0" prefWidth="75.0" text="Cancel" />
+    </children>
+</AnchorPane>

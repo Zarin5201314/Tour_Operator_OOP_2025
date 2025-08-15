@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane fx:id="accountantDashBoardBP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Accountant.AccountantDashBoardController">
+    <left>
+        <VBox prefHeight="452.0" prefWidth="200.0" style="-fx-background-color: rgb(100,170,190,7);" BorderPane.alignment="CENTER">
+            <children>
+                <Button mnemonicParsing="false" onAction="#generateReportOnAction" prefWidth="200.0" text="Generate Financial Reports">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processRefundsOnAction" prefWidth="200.0" text="Process Refunds">
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#trackEarningsOnAction" prefWidth="200.0" text="Track Earnings">
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+                <Button layoutX="10.0" layoutY="61.0" mnemonicParsing="false" onAction="#manageVendorPaymentsOnAction" prefWidth="200.0" text="Manage Vendor Payments">
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+                <Button layoutX="10.0" layoutY="87.0" mnemonicParsing="false" onAction="#issueInvoicesOnAction" prefWidth="200.0" text="Issue Invoices">
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+                <Button layoutX="10.0" layoutY="112.0" mnemonicParsing="false" onAction="#applyDiscountsOnActive" prefWidth="200.0" text="Apply Discounts">
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+                <Button layoutX="10.0" layoutY="138.0" mnemonicParsing="false" onAction="#exportTransactionLogsOnAction" prefWidth="200.0" text="Export Transaction Logs">
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+                <Button layoutX="10.0" layoutY="164.0" mnemonicParsing="false" onAction="#logOutOnClick" prefWidth="200.0" text="Logout">
+                    <padding>
+                        <Insets bottom="10.0" top="10.0" />
+                    </padding>
+                </Button>
+            </children>
+            <BorderPane.margin>
+                <Insets right="10.0" />
+            </BorderPane.margin>
+        </VBox>
+    </left>
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <Pane prefHeight="450.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="165.0" layoutY="30.0" text="Accountant DashBoard">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <TextArea fx:id="infoTextArea" layoutX="45.0" layoutY="100.0" prefHeight="233.0" prefWidth="500.0" />
+            </children>
+        </Pane>
+    </center>
+</BorderPane>

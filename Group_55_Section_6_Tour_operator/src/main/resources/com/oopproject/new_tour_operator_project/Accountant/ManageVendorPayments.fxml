@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(100,170,190,7);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Accountant.ManageVendorPaymentsController">
+    <children>
+        <Label layoutX="159.0" layoutY="54.0" text="Manage Vendor Payments">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TableView fx:id="manageVendorPaymentTableView" layoutX="125.0" layoutY="141.0" prefHeight="200.0" prefWidth="332.0">
+            <columns>
+                <TableColumn fx:id="vendorNameColumn" prefWidth="127.20001220703125" text="Vendor Name" />
+                <TableColumn fx:id="amountColumn" prefWidth="93.5999755859375" text="Amount" />
+                <TableColumn fx:id="statusColumn" prefWidth="110.4000244140625" text="Status" />
+            </columns>
+        </TableView>
+        <Button layoutX="431.0" layoutY="373.0" mnemonicParsing="false" onAction="#markAsPaidOnClick" text="Mark as paid" />
+      <Label fx:id="outPutLabel" layoutX="146.0" layoutY="375.0" prefHeight="48.0" prefWidth="216.0" />
+      <Button layoutX="431.0" layoutY="399.0" mnemonicParsing="false" onAction="#goBackOnClick" prefHeight="26.0" prefWidth="84.0" text="Go back" />
+    </children>
+</AnchorPane>
