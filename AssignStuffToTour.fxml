@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.OperationManager.AssignStaffToTourController">
+   <children>
+      <TableView fx:id="assignStaffToTourTableView" layoutX="25.0" layoutY="207.0" prefHeight="133.0" prefWidth="490.0">
+        <columns>
+          <TableColumn fx:id="staffNameTableColumn" prefWidth="75.0" text="Staff Name" />
+          <TableColumn fx:id="staffIDTableColumn" prefWidth="111.33334350585938" text="Staff ID" />
+            <TableColumn fx:id="destinationTableColumn" prefWidth="75.0" text="Destination" />
+            <TableColumn fx:id="dateTableColumn" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="staffRoleTableColumn" prefWidth="75.0" text="Staff Roles" />
+            <TableColumn fx:id="phoneTableColumn" prefWidth="75.0" text="phone" />
+        </columns>
+      </TableView>
+      <Label layoutX="35.0" layoutY="33.0" text="Staff Name" />
+      <Label layoutX="35.0" layoutY="65.0" text="Staff ID" />
+      <Label layoutX="35.0" layoutY="100.0" text="Phone" />
+      <TextField fx:id="stafNameTextField" layoutX="102.0" layoutY="29.0" />
+      <TextField fx:id="stafIDTextField" layoutX="102.0" layoutY="61.0" />
+      <TextField fx:id="phoneNumTextField" layoutX="102.0" layoutY="96.0" />
+      <ComboBox fx:id="destinationComboBox" layoutX="306.0" layoutY="61.0" prefWidth="150.0" promptText="Destination" />
+      <ComboBox fx:id="staffRoleComboBox" layoutX="306.0" layoutY="96.0" prefWidth="150.0" promptText="Staff Role" />
+      <DatePicker fx:id="datePicker" layoutX="300.0" layoutY="29.0" />
+      <Button layoutX="39.0" layoutY="146.0" mnemonicParsing="false" onAction="#confarmAssignButton" prefHeight="47.0" prefWidth="150.0" text="Confarm Assign" />
+   </children>
+</AnchorPane>

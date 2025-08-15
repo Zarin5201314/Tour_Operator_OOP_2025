@@ -36,4 +36,8 @@ public class AccountantClass extends UserClass {
         id = Integer.toString(random.nextInt(1000000, 9999999));
         return id;
     }
+    public Accountant CreateAccountPage(String name, LocalDate dateOfBirth, String contactInfo, String gender, String email, String password, String id, LocalDate dayOfJoining){
+        Accountant accountant = new Accountant(name, dateOfBirth , contactInfo, gender, email, password, id, dayOfJoining);
+        return  accountant;
+    }
 }

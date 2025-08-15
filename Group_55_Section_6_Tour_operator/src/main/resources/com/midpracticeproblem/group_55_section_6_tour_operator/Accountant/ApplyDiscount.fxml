@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgba(160,420,110,290,5);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Accountant.ApplyDiscountController">
+    <children>
+        <Label layoutX="214.0" layoutY="51.0" text="Apply Discount">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="125.0" layoutY="156.0" text="Discount % :" />
+        <TextField fx:id="discountTextField" layoutX="238.0" layoutY="152.0" prefHeight="26.0" prefWidth="182.0" />
+        <Button layoutX="401.0" layoutY="323.0" mnemonicParsing="false" onAction="#applyDiscountOnAction" text="Apply" />
+      <Label fx:id="outPutLabel" layoutX="147.0" layoutY="305.0" prefHeight="89.0" prefWidth="190.0" />
+      <Button layoutX="401.0" layoutY="369.0" mnemonicParsing="false" onAction="#cancelOnAction" text="Caccel" />
+    </children>
+</AnchorPane>

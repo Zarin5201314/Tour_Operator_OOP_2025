@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.TourGuide.CoordinateWithTransportController">
+   <children>
+      <DatePicker fx:id="datePicker" layoutX="28.0" layoutY="166.0" />
+      <ComboBox fx:id="destinationComboBox" layoutX="28.0" layoutY="61.0" prefWidth="150.0" promptText="Destination" />
+      <ComboBox fx:id="assignGuideComboBox" layoutX="28.0" layoutY="98.0" prefWidth="150.0" promptText="Assign Guide" />
+      <ComboBox fx:id="vehicleTypeComboBox" layoutX="28.0" layoutY="134.0" prefWidth="150.0" promptText="Vehicle Type" />
+      <Label layoutX="241.0" layoutY="25.0" text="Driver Name" />
+      <Label layoutX="241.0" layoutY="57.0" text="Driver NUmber" />
+      <Label layoutX="241.0" layoutY="94.0" text="Veichel Number" />
+      <Label layoutX="241.0" layoutY="130.0" text="PickUp Date" />
+      <Label layoutX="245.0" layoutY="161.0" text="Drop Date" />
+      <TextField fx:id="driverNameTextField" layoutX="340.0" layoutY="21.0" />
+      <TextField fx:id="driverNumberTextField" layoutX="340.0" layoutY="53.0" />
+      <TextField fx:id="vehicleNumberTextField" layoutX="340.0" layoutY="90.0" />
+      <ComboBox fx:id="tourNameComboBox" layoutX="28.0" layoutY="21.0" prefWidth="150.0" promptText="Tour Name" />
+      <DatePicker fx:id="pickupDateDatePicker" layoutX="340.0" layoutY="121.0" />
+      <DatePicker fx:id="dropDateDatePicker" layoutX="340.0" layoutY="157.0" />
+      <Button fx:id="informationAddToTableButton" layoutX="28.0" layoutY="200.0" mnemonicParsing="false" onAction="#informationAddToTableButton" prefHeight="47.0" prefWidth="175.0" text="Information Add To Table" />
+      <TableView fx:id="coordinateWithTransportTableView" layoutX="6.0" layoutY="247.0" prefHeight="135.0" prefWidth="587.0">
+        <columns>
+          <TableColumn fx:id="tourNameTableColumn" prefWidth="80.66665649414062" text="Tour Name" />
+          <TableColumn fx:id="destinationTableColumn" prefWidth="108.0" text="Destination" />
+            <TableColumn fx:id="assignGuideTableColumn" prefWidth="119.3333740234375" text="Assign Guide" />
+            <TableColumn fx:id="vehicleTypeTableColumn" prefWidth="97.99993896484375" text="Vehicle Type" />
+            <TableColumn fx:id="driverNameTableColumn" prefWidth="98.6666259765625" text="Driver Name" />
+            <TableColumn fx:id="driverNumberTableColumn" prefWidth="84.0" text="Driver Num" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" />
+            <TableColumn prefWidth="16.6666259765625" text="Column X" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
