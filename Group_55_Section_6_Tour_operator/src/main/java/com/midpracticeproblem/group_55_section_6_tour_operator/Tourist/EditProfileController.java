@@ -1,18 +1,28 @@
-package com.midpracticeproblem.group_55_section_6_tour_operator.Tourist;
+package com.oopproject.new_tour_operator_project.Tourist;
 
+import com.oopproject.new_tour_operator_project.HelloApplication;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+import java.time.LocalDate;
 
 public class EditProfileController
 {
+    @javafx.fxml.FXML
+    private TextField userNameTextField;
     @javafx.fxml.FXML
     private TextField ContactInfoTextField;
     @javafx.fxml.FXML
     private TextField passwordTextField;
     @javafx.fxml.FXML
     private TextField emailTextField;
-    @javafx.fxml.FXML
-    private TextField userNameTextField;
     @javafx.fxml.FXML
     private Label outPutLabel;
 
@@ -31,13 +41,10 @@ public class EditProfileController
         stage.setTitle("Track Visa Status");
         stage.setScene(scene);
         stage.show();
-
-        
     }
 
     @javafx.fxml.FXML
     public void saveChangesOnAction(ActionEvent actionEvent) {
-
         String name = userNameTextField.getText();
         String email = emailTextField.getText();
         String password = passwordTextField.getText();
