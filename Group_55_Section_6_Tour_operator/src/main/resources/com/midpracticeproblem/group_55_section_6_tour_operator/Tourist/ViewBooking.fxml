@@ -6,29 +6,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.ViewBookingController">
-   <children>
-      <Label layoutX="222.0" layoutY="14.0" text="View Booking">
-         <font>
-            <Font name="System Bold" size="24.0" />
-         </font>
-      </Label>
-      <Label layoutX="243.0" layoutY="89.0" prefHeight="27.0" prefWidth="113.0" text="Your Bookings">
-         <font>
-            <Font name="System Italic" size="18.0" />
-         </font>
-      </Label>
-      <TableView fx:id="viewbookigTableView" layoutX="4.0" layoutY="175.0" prefHeight="270.0" prefWidth="592.0">
-        <columns>
-          <TableColumn fx:id="nameColumn" prefWidth="60.0" text="Name" />
-          <TableColumn fx:id="genderColumn" prefWidth="66.4000244140625" text="Gender" />
-            <TableColumn fx:id="contactColumn" prefWidth="69.5999755859375" text="Contact" />
-            <TableColumn fx:id="packageNameColumn" prefWidth="92.800048828125" text="Package Name" />
-            <TableColumn fx:id="bookingIDColumn" prefWidth="81.5999755859375" text="Booking ID" />
-            <TableColumn fx:id="packagePriceColumn" prefWidth="62.4000244140625" text="Price" />
-            <TableColumn fx:id="durationColumn" prefWidth="59.20001220703125" text="Duration" />
-            <TableColumn fx:id="bookingdateColumn" prefWidth="95.20001220703125" text="Booking Date" />
-        </columns>
-      </TableView>
-   </children>
+<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Tourist.ViewBookingController">
+    <children>
+        <Label layoutX="222.0" layoutY="14.0" text="View Booking">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="243.0" layoutY="89.0" prefHeight="27.0" prefWidth="113.0" text="Your Bookings">
+            <font>
+                <Font name="System Italic" size="18.0" />
+            </font>
+        </Label>
+        <TableView fx:id="viewbookigTableView" layoutX="4.0" layoutY="175.0" prefHeight="270.0" prefWidth="592.0">
+            <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="60.0" text="Name" />
+                <TableColumn fx:id="genderColumn" prefWidth="66.4000244140625" text="Gender" />
+                <TableColumn fx:id="contactColumn" prefWidth="69.5999755859375" text="Contact" />
+                <TableColumn fx:id="packageNameColumn" prefWidth="92.800048828125" text="Package Name" />
+                <TableColumn fx:id="bookingIDColumn" prefWidth="81.5999755859375" text="Booking ID" />
+                <TableColumn fx:id="packagePriceColumn" prefWidth="62.4000244140625" text="Price" />
+                <TableColumn fx:id="durationColumn" prefWidth="59.20001220703125" text="Duration" />
+                <TableColumn fx:id="bookingdateColumn" prefWidth="95.20001220703125" text="Booking Date" />
+            </columns>
+        </TableView>
+    </children>
 </AnchorPane>

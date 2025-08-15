@@ -7,8 +7,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(740,160,350,5);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.CancelBookingController">
-   <children>
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(740,160,350,5);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Tourist.CancelBookingController">
+    <children>
         <Label layoutX="207.0" layoutY="33.0" text="Cancel Bookings">
             <font>
                 <Font name="System Bold" size="24.0" />

@@ -6,9 +6,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(180,200,150,9);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.EditProfileController">
-   <children>
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(180,200,150,9);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Tourist.EditProfileController">
+    <children>
         <Label layoutX="237.0" layoutY="41.0" text="Edit Profile">
             <font>
                 <Font name="System Bold" size="24.0" />

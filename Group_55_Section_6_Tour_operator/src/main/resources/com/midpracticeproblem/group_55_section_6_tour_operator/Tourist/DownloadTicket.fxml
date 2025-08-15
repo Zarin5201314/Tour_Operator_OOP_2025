@@ -7,8 +7,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(100,170,190,7);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.DownloadTicketController">
-   <children>
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(100,170,190,7);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Tourist.DownloadTicketController">
+    <children>
         <Label layoutX="200.0" layoutY="51.0" text="Download Tickets">
             <font>
                 <Font name="System Bold" size="24.0" />

@@ -8,8 +8,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(100,270,530,6);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.BookTourController">
-   <children>
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(100,270,530,6);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Tourist.BookTourController">
+    <children>
         <Label layoutX="241.0" layoutY="22.0" text="Book Tour">
             <font>
                 <Font name="System Bold" size="24.0" />

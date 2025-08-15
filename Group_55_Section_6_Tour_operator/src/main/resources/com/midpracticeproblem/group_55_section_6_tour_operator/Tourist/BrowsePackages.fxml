@@ -10,8 +10,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(230,550,150,4);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.BrowsePackagesController">
-   <children>
+<AnchorPane prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: rgb(230,550,150,4);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Tourist.BrowsePackagesController">
+    <children>
         <Label layoutX="209.0" layoutY="29.0" text="Browse Package">
             <font>
                 <Font name="System Bold" size="24.0" />
@@ -38,4 +38,3 @@
       <Button layoutX="452.0" layoutY="328.0" mnemonicParsing="false" onAction="#viewDetailsOnclick" text="View Details" />
     </children>
 </AnchorPane>
-

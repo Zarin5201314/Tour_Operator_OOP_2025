@@ -7,9 +7,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(220,250,150,5);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.Tourist.SubmitFeedbackController">
-   <children>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(220,250,150,5);" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oopproject.new_tour_operator_project.Tourist.SubmitFeedbackcontroller">
+    <children>
         <Label layoutX="203.0" layoutY="35.0" text="Submit Feedback">
             <font>
                 <Font name="System Bold" size="24.0" />
