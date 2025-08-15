@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.TourGuide.AccessTouristProfileController">
+   <children>
+      <Button fx:id="viewTouristListButton" layoutX="26.0" layoutY="30.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="143.0" text="View Tourist List" />
+      <Button fx:id="showOnlyMaleTouristButton" layoutX="196.0" layoutY="30.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="143.0" text="Show Only Male Tourist" />
+      <Button fx:id="showOnlyFemaleTouristButton" layoutX="386.0" layoutY="31.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="159.0" text="Show Only Female Tourist" />
+      <Button fx:id="searchByNameButton" layoutX="27.0" layoutY="109.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="143.0" text="Search By Name" />
+      <TableView fx:id="accessTouristProfileTableView" layoutX="29.0" layoutY="171.0" prefHeight="200.0" prefWidth="543.0">
+        <columns>
+          <TableColumn fx:id="nameTableColumn" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="ageTableColumn" prefWidth="75.0" text="Age" />
+            <TableColumn fx:id="genderTableColumn" prefWidth="75.0" text="Gender" />
+            <TableColumn fx:id="nationalityTableColumn" prefWidth="89.3333740234375" text="Nationality" />
+            <TableColumn fx:id="phoneNumberTableColumn" prefWidth="116.6666259765625" text="Phone Number" />
+            <TableColumn fx:id="passportNumberTableColumn" prefWidth="109.33333333333337" text="Passport Number" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
