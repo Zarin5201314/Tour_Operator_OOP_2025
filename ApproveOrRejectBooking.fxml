@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="421.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.OperationManager.ApproveOrRejectBookingController">
+   <children>
+      <Label layoutX="37.0" layoutY="43.0" text="Name" />
+      <Label layoutX="37.0" layoutY="76.0" text="ID" />
+      <TextField fx:id="nameTextField" layoutX="84.0" layoutY="39.0" />
+      <TextField fx:id="idTextField" layoutX="84.0" layoutY="72.0" />
+      <ComboBox fx:id="tourTypeComboBox" layoutX="266.0" layoutY="39.0" prefWidth="150.0" promptText="Tour Type" />
+      <DatePicker fx:id="datePicker" layoutX="266.0" layoutY="72.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label layoutX="35.0" layoutY="115.0" text="Phone" />
+      <Label layoutX="35.0" layoutY="143.0" text="passport" />
+      <TextField fx:id="phoneNumTextField" layoutX="84.0" layoutY="103.0" />
+      <TextField fx:id="passportNumTextField" layoutX="84.0" layoutY="139.0" />
+      <RadioButton fx:id="adultRadioButton" layoutX="436.0" layoutY="35.0" mnemonicParsing="false" text="Adult" />
+      <RadioButton fx:id="childrenRadioButton" layoutX="505.0" layoutY="34.0" mnemonicParsing="false" text="Children" />
+      <Button fx:id="addToTableButton" layoutX="266.0" layoutY="115.0" mnemonicParsing="false" onAction="#addToTableViewButton" prefHeight="53.0" prefWidth="149.0" text="Add Table" />
+      <TableView fx:id="approveOrRejectionBookingTableView" layoutX="23.0" layoutY="175.0" prefHeight="147.0" prefWidth="529.0">
+        <columns>
+          <TableColumn fx:id="nameTableColumn" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="idTableColumn" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="personTableColumn" prefWidth="75.0" text="Person" />
+            <TableColumn fx:id="dateTableColumn" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="tourTypeTableColumn" prefWidth="75.0" text="Tour Type" />
+            <TableColumn fx:id="phoneNumTableColumn" prefWidth="75.0" text="Phone" />
+            <TableColumn fx:id="passportNumTableColumn" prefWidth="75.0" text="passport" />
+        </columns>
+      </TableView>
+      <Button fx:id="approveTableButton" layoutX="32.0" layoutY="354.0" mnemonicParsing="false" onAction="#approveButton" prefHeight="53.0" prefWidth="195.0" text="Approve" />
+      <Button fx:id="confarmOrRejectButton" layoutX="273.0" layoutY="350.0" mnemonicParsing="false" onAction="#confarmRejectButton" prefHeight="53.0" prefWidth="163.0" text="Confarm Reject" />
+      <ComboBox fx:id="rejectionReasonComboBox" layoutX="436.0" layoutY="63.0" prefWidth="150.0" promptText="Rejection Reason" />
+   </children>
+</AnchorPane>

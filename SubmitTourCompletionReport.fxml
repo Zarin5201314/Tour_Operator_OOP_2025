@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.midpracticeproblem.group_55_section_6_tour_operator.TourGuide.SubmitTourCompletionReportController">
+   <children>
+      <Label layoutX="31.0" layoutY="27.0" text="Tour Name" />
+      <Label layoutX="31.0" layoutY="63.0" text="Tour ID" />
+      <Label layoutX="31.0" layoutY="96.0" text="Total Tourist" />
+      <TextField fx:id="tourNameTextField" layoutX="113.0" layoutY="23.0" />
+      <TextField fx:id="tourIDTextField" layoutX="113.0" layoutY="59.0" />
+      <TextField fx:id="totalTouristTextField" layoutX="113.0" layoutY="92.0" />
+      <DatePicker fx:id="datePicker" layoutX="407.0" layoutY="23.0" />
+      <ComboBox fx:id="locationComboBox" layoutX="407.0" layoutY="59.0" prefWidth="150.0" promptText="Location" />
+      <ComboBox fx:id="issuessFatchComboBox" layoutX="407.0" layoutY="92.0" prefWidth="150.0" promptText="Issues Faced" />
+      <Label layoutX="37.0" layoutY="136.0" text="Rating" />
+      <TextField fx:id="ratingTextField" layoutX="113.0" layoutY="132.0" />
+      <Button layoutX="407.0" layoutY="132.0" mnemonicParsing="false" onAction="#addToTableButton" prefHeight="48.0" prefWidth="150.0" text="Add To Table" />
+      <Button layoutX="29.0" layoutY="338.0" mnemonicParsing="false" onAction="#submitButton" prefHeight="57.0" prefWidth="150.0" text="Submit " />
+      <TableView fx:id="submitTourCompletionReportTableView" layoutX="31.0" layoutY="186.0" prefHeight="152.0" prefWidth="544.0">
+        <columns>
+          <TableColumn fx:id="tourNameTableColumn" prefWidth="75.0" text="Tour Name" />
+          <TableColumn fx:id="tourIDTableColumn" prefWidth="75.0" text="Tour ID" />
+            <TableColumn fx:id="totalTouristTableColumn" prefWidth="82.66668701171875" text="Total Tourist" />
+            <TableColumn fx:id="ratingTableColumn" prefWidth="68.0" text="Rating" />
+            <TableColumn fx:id="dateTableColumn" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="locationTableColumn" prefWidth="75.0" text="Location" />
+            <TableColumn fx:id="issuessFacedTableColumn" prefWidth="89.3333740234375" text="Issues Faced" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
